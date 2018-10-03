@@ -22,7 +22,7 @@ npm install
 npm run cypress:run
 ```
 
-## How to run tests locally with NPM
+## How to run tests locally with Docker
 
 0. Create temporary folder for output called 'cypress'
 1. Use Docker to build project

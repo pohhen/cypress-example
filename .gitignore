@@ -3,5 +3,6 @@
 node_modules
 .module-cache
 *.log*
+docker-compose.yml
 
 cypress/*
