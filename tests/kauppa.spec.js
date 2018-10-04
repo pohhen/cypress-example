@@ -1,6 +1,6 @@
 describe('Kauppa Tests', function() {
   it('Validate Purchase', function() {
-    cy.viewport('macbook-15')
+    cy.viewport(1600, 1200)
     cy.visit('https://elisa.fi/')
     cy.contains('selvä')
       .click()
@@ -15,7 +15,7 @@ describe('Kauppa Tests', function() {
     cy.contains('Red Dead Redemption')
       .click()
     cy.contains('Red Dead Redemption 2')
-      .screenshot()
+    cy.screenshot('1-product-capture', {capture: 'viewport'})
     cy.get('.js-estimated-monthly-price')
       .contains('5,40')
     cy.get('.js-total-price')
@@ -38,6 +38,6 @@ describe('Kauppa Tests', function() {
       //Assert that single payment is chosen
       .should('contain', 'Kertamaksut 64,90 €')
       .and('not.contain', 'Kuukausimaksut')
-      .screenshot()
+    cy.screenshot('2-shopping-card', {capture: 'viewport'})
   })
 })
