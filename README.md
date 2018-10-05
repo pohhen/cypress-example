@@ -8,9 +8,9 @@ Both ways the results can be viewed on local machine.
 
 ## How to run test locally with Cypress runner
 
-Download runner package from https://www.cypress.io/
-Unzip
-Run it and give this folder as project root
+0. Download runner package from https://www.cypress.io/
+1. Unzip
+2. Run it and give this folder as project root
 
 ## How to run tests locally with NPM
 
