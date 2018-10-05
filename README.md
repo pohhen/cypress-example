@@ -6,6 +6,12 @@ Use NodeJS package manager for local installation.
 Or run it inside Docker container.
 Both ways the results can be viewed on local machine.
 
+## How to run test locally with Cypress runner
+
+Download runner package from https://www.cypress.io/
+Unzip
+Run it and give this folder as project root
+
 ## How to run tests locally with NPM
 
 0. Create temporary folder for output called 'cypress'
